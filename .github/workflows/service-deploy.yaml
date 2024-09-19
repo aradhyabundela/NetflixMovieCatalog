@@ -2,7 +2,6 @@
   push:
     branches:
       - main
-
 env:
   EC2_PUBLIC_IP: ai-aradhya.devops-days-upes.com
   SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
